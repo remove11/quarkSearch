@@ -1,11 +1,8 @@
-package org.acme;
-import io.smallrye.mutiny.Uni;
+/*package org.acme;
 import io.quarkus.hibernate.reactive.panache.PanacheEntity;
-import io.vertx.core.eventbus.Message;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import java.util.List;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
@@ -43,4 +40,4 @@ public abstract class Person extends PanacheEntity {
     @Column(name = "gender")
     private Gender gender;
 
-}
+}*/

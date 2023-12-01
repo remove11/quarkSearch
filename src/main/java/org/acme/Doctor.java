@@ -1,4 +1,4 @@
-package org.acme;
+/*package org.acme;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -17,3 +17,4 @@ public class Doctor extends Employee {
 
 
 }
+*/

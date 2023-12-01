@@ -1,4 +1,4 @@
-package org.acme;
+/*package org.acme;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.Getter;
@@ -14,4 +14,4 @@ public class Patient extends Person {
     private LocalDateTime createdAt;
 
 
-}
+}*/
