@@ -14,5 +14,9 @@ public class OtherPersonal extends Employee {
     @Column(name = "calendarId")
     private String calendarId;
 
-    // Constructors...
-}*/
+    public OtherPersonal() {
+    }
+
+
+}
+*/

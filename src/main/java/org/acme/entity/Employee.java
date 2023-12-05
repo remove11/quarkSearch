@@ -3,6 +3,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.UUID;
+
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 @Getter
@@ -12,5 +14,8 @@ public abstract class Employee extends Person {
     @Column(name = "employeeId", unique = true)
     private String employeeId;
 
-    // Constructors...
-}*/
+    public Employee() {
+
+    }
+}
+*/
